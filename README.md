@@ -1,2 +1,2 @@
 # TheMostSimpleAPI
-This is most simple API server used Gin-gonic.
+This is most simple API server used Gin.
