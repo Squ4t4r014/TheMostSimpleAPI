@@ -22,11 +22,9 @@ func NewRouting() *Routing {
 }
 
 func (r *Routing) setRouting() {
-	const ZURA = "ずらちゃんずら"
-
-	r.Gin.GET("/", func (c *gin.Context) {
+	.Gin.GET("/", func (c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H {
-			"text": ZURA + "💓",
+			"text": "zura",
 		})
 	})
 }
