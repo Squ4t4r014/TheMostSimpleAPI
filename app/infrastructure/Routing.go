@@ -22,7 +22,7 @@ func NewRouting() *Routing {
 }
 
 func (r *Routing) setRouting() {
-	.Gin.GET("/", func (c *gin.Context) {
+	r.Gin.GET("/", func (c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H {
 			"text": "zura",
 		})
